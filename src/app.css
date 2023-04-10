@@ -26,7 +26,7 @@ header a.logo {
 }
 header nav{
     display: flex;
-    row-gap: 15px;
+    gap: 15px;
 }
 div.post{
     display: grid;
@@ -54,3 +54,34 @@ div.post p.summary{
     margin: 10px 0;
     line-height: 1.4rem;
 }
+form.login, from.register{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    border:0;
+    background-color: #eee;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+button {
+ width: 100%;
+ display: block;
+ background-color: #555;
+ border:0;
+ color:#fff;
+ border-radius: 5px;
+ padding: 7px 0;
+}
+*{
+    box-sizing: border-box;
+}
+form h1{
+    text-align: center;
+	}
