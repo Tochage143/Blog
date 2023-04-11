@@ -1,17 +1,9 @@
-## Running React on Repl.it
+## Live Coding in Node.js
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Never click run again! Just write your code and it will reevaluate for you.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This template is similar to a regular node repl except it re-runs your code on a regular interval. This makes it really fun for quick prototyping, for data-crunching, or for demos. 
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+![live demo](demo.gif)
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Simply hit run and start coding!
